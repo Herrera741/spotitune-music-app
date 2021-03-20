@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A179E402606581D0011C640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A179E3F2606581D0011C640 /* AppDelegate.swift */; };
+		7A179E422606581D0011C640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A179E412606581D0011C640 /* SceneDelegate.swift */; };
+		7A179E442606581D0011C640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A179E432606581D0011C640 /* ViewController.swift */; };
+		7A179E472606581D0011C640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A179E452606581D0011C640 /* Main.storyboard */; };
+		7A179E49260658240011C640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A179E48260658240011C640 /* Assets.xcassets */; };
+		7A179E4C260658240011C640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A179E4A260658240011C640 /* LaunchScreen.storyboard */; };
+		7A179E57260658240011C640 /* spotituneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A179E56260658240011C640 /* spotituneTests.swift */; };
+		7A179E62260658240011C640 /* spotituneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A179E61260658240011C640 /* spotituneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A179E53260658240011C640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A179E342606581D0011C640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A179E3B2606581D0011C640;
+			remoteInfo = spotitune;
+		};
+		7A179E5E260658240011C640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A179E342606581D0011C640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A179E3B2606581D0011C640;
+			remoteInfo = spotitune;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A179E3C2606581D0011C640 /* spotitune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotitune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A179E3F2606581D0011C640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A179E412606581D0011C640 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A179E432606581D0011C640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A179E462606581D0011C640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A179E48260658240011C640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A179E4B260658240011C640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A179E4D260658240011C640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A179E52260658240011C640 /* spotituneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotituneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A179E56260658240011C640 /* spotituneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotituneTests.swift; sourceTree = "<group>"; };
+		7A179E58260658240011C640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A179E5D260658240011C640 /* spotituneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotituneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A179E61260658240011C640 /* spotituneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotituneUITests.swift; sourceTree = "<group>"; };
+		7A179E63260658240011C640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A179E392606581D0011C640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A179E4F260658240011C640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A179E5A260658240011C640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A179E332606581D0011C640 = {
+			isa = PBXGroup;
+			children = (
+				7A179E3E2606581D0011C640 /* spotitune */,
+				7A179E55260658240011C640 /* spotituneTests */,
+				7A179E60260658240011C640 /* spotituneUITests */,
+				7A179E3D2606581D0011C640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A179E3D2606581D0011C640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A179E3C2606581D0011C640 /* spotitune.app */,
+				7A179E52260658240011C640 /* spotituneTests.xctest */,
+				7A179E5D260658240011C640 /* spotituneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A179E3E2606581D0011C640 /* spotitune */ = {
+			isa = PBXGroup;
+			children = (
+				7A179E3F2606581D0011C640 /* AppDelegate.swift */,
+				7A179E412606581D0011C640 /* SceneDelegate.swift */,
+				7A179E432606581D0011C640 /* ViewController.swift */,
+				7A179E452606581D0011C640 /* Main.storyboard */,
+				7A179E48260658240011C640 /* Assets.xcassets */,
+				7A179E4A260658240011C640 /* LaunchScreen.storyboard */,
+				7A179E4D260658240011C640 /* Info.plist */,
+			);
+			path = spotitune;
+			sourceTree = "<group>";
+		};
+		7A179E55260658240011C640 /* spotituneTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A179E56260658240011C640 /* spotituneTests.swift */,
+				7A179E58260658240011C640 /* Info.plist */,
+			);
+			path = spotituneTests;
+			sourceTree = "<group>";
+		};
+		7A179E60260658240011C640 /* spotituneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A179E61260658240011C640 /* spotituneUITests.swift */,
+				7A179E63260658240011C640 /* Info.plist */,
+			);
+			path = spotituneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A179E3B2606581D0011C640 /* spotitune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A179E66260658240011C640 /* Build configuration list for PBXNativeTarget "spotitune" */;
+			buildPhases = (
+				7A179E382606581D0011C640 /* Sources */,
+				7A179E392606581D0011C640 /* Frameworks */,
+				7A179E3A2606581D0011C640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spotitune;
+			productName = spotitune;
+			productReference = 7A179E3C2606581D0011C640 /* spotitune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A179E51260658240011C640 /* spotituneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A179E69260658240011C640 /* Build configuration list for PBXNativeTarget "spotituneTests" */;
+			buildPhases = (
+				7A179E4E260658240011C640 /* Sources */,
+				7A179E4F260658240011C640 /* Frameworks */,
+				7A179E50260658240011C640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A179E54260658240011C640 /* PBXTargetDependency */,
+			);
+			name = spotituneTests;
+			productName = spotituneTests;
+			productReference = 7A179E52260658240011C640 /* spotituneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A179E5C260658240011C640 /* spotituneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A179E6C260658240011C640 /* Build configuration list for PBXNativeTarget "spotituneUITests" */;
+			buildPhases = (
+				7A179E59260658240011C640 /* Sources */,
+				7A179E5A260658240011C640 /* Frameworks */,
+				7A179E5B260658240011C640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A179E5F260658240011C640 /* PBXTargetDependency */,
+			);
+			name = spotituneUITests;
+			productName = spotituneUITests;
+			productReference = 7A179E5D260658240011C640 /* spotituneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A179E342606581D0011C640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7A179E3B2606581D0011C640 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7A179E51260658240011C640 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7A179E3B2606581D0011C640;
+					};
+					7A179E5C260658240011C640 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7A179E3B2606581D0011C640;
+					};
+				};
+			};
+			buildConfigurationList = 7A179E372606581D0011C640 /* Build configuration list for PBXProject "spotitune" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A179E332606581D0011C640;
+			productRefGroup = 7A179E3D2606581D0011C640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A179E3B2606581D0011C640 /* spotitune */,
+				7A179E51260658240011C640 /* spotituneTests */,
+				7A179E5C260658240011C640 /* spotituneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A179E3A2606581D0011C640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A179E4C260658240011C640 /* LaunchScreen.storyboard in Resources */,
+				7A179E49260658240011C640 /* Assets.xcassets in Resources */,
+				7A179E472606581D0011C640 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A179E50260658240011C640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A179E5B260658240011C640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A179E382606581D0011C640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A179E442606581D0011C640 /* ViewController.swift in Sources */,
+				7A179E402606581D0011C640 /* AppDelegate.swift in Sources */,
+				7A179E422606581D0011C640 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A179E4E260658240011C640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A179E57260658240011C640 /* spotituneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A179E59260658240011C640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A179E62260658240011C640 /* spotituneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A179E54260658240011C640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A179E3B2606581D0011C640 /* spotitune */;
+			targetProxy = 7A179E53260658240011C640 /* PBXContainerItemProxy */;
+		};
+		7A179E5F260658240011C640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A179E3B2606581D0011C640 /* spotitune */;
+			targetProxy = 7A179E5E260658240011C640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A179E452606581D0011C640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A179E462606581D0011C640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A179E4A260658240011C640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A179E4B260658240011C640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A179E64260658240011C640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A179E65260658240011C640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A179E67260658240011C640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotitune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioherrera.spotitune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A179E68260658240011C640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotitune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioherrera.spotitune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A179E6A260658240011C640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotituneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioherrera.spotituneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spotitune.app/spotitune";
+			};
+			name = Debug;
+		};
+		7A179E6B260658240011C640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotituneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioherrera.spotituneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spotitune.app/spotitune";
+			};
+			name = Release;
+		};
+		7A179E6D260658240011C640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotituneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioherrera.spotituneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spotitune;
+			};
+			name = Debug;
+		};
+		7A179E6E260658240011C640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotituneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioherrera.spotituneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spotitune;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A179E372606581D0011C640 /* Build configuration list for PBXProject "spotitune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A179E64260658240011C640 /* Debug */,
+				7A179E65260658240011C640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A179E66260658240011C640 /* Build configuration list for PBXNativeTarget "spotitune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A179E67260658240011C640 /* Debug */,
+				7A179E68260658240011C640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A179E69260658240011C640 /* Build configuration list for PBXNativeTarget "spotituneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A179E6A260658240011C640 /* Debug */,
+				7A179E6B260658240011C640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A179E6C260658240011C640 /* Build configuration list for PBXNativeTarget "spotituneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A179E6D260658240011C640 /* Debug */,
+				7A179E6E260658240011C640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A179E342606581D0011C640 /* Project object */;
+}
