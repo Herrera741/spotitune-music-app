@@ -15,6 +15,7 @@
 		7A179E4C260658240011C640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A179E4A260658240011C640 /* LaunchScreen.storyboard */; };
 		7A179E57260658240011C640 /* spotituneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A179E56260658240011C640 /* spotituneTests.swift */; };
 		7A179E62260658240011C640 /* spotituneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A179E61260658240011C640 /* spotituneUITests.swift */; };
+		7A179E73260658880011C640 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A179E72260658880011C640 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7A179E5D260658240011C640 /* spotituneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotituneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A179E61260658240011C640 /* spotituneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotituneUITests.swift; sourceTree = "<group>"; };
 		7A179E63260658240011C640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A179E72260658880011C640 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7A179E48260658240011C640 /* Assets.xcassets */,
 				7A179E4A260658240011C640 /* LaunchScreen.storyboard */,
 				7A179E4D260658240011C640 /* Info.plist */,
+				7A179E72260658880011C640 /* Player.swift */,
 			);
 			path = spotitune;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A179E73260658880011C640 /* Player.swift in Sources */,
 				7A179E442606581D0011C640 /* ViewController.swift in Sources */,
 				7A179E402606581D0011C640 /* AppDelegate.swift in Sources */,
 				7A179E422606581D0011C640 /* SceneDelegate.swift in Sources */,
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJUQAVTLY7;
 				INFOPLIST_FILE = spotitune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJUQAVTLY7;
 				INFOPLIST_FILE = spotitune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

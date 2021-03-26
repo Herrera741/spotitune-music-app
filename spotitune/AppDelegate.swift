@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  spotitune
 //
-//  Created by CSUFTitan on 3/20/21.
+//  Created by Sergio Herrera on 3/20/21.
 //
 
 import UIKit
